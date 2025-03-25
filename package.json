@@ -1,0 +1,38 @@
+{
+    "name": "thread-worker-group",
+    "version": "2.5.1",
+    "description": "thread worker group",
+    "type": "module",
+    "main": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "node script/build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mailhonor/node-thread-worker-group.git"
+    },
+    "keywords": [
+        "worker",
+        "thread"
+    ],
+    "author": {
+        "name": "linuxmail",
+        "email": "eli960@qq.com",
+        "url": "https://github.com/mailhonor/node-thread-worker-group"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mailhonor/node-thread-worker-group/issues"
+    },
+    "homepage": "https://github.com/mailhonor/node-thread-worker-group/",
+    "devDependencies": {
+        "@types/node": "^20.10.6",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {},
+    "files": [
+        "dist/"
+    ]
+}
